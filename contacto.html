@@ -1,33 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
 	<title>FORMULARIO DE CONTACTO</title>
+	<link rel="stylesheet" type="text/css" href="css/cssIndex.css">
 </head>
 <body>
-	<form action="https://api.web3forms.com/submit" method="POST">
-		<input type="hidden" name="apikey" value="ec21e550-89a8-48f4-b409-70c49ebfeb02">
-		<label for="USUARIO">INGRESE SU NOMBRE:</label>
-		<input class="" type="TEXT" placeholder="DIGITE SU NOMBRE" maxlength="50" name="USUARIO" id="USUARIO">
-		<br>
+	<div id="container">
+			<div>
+				<picture>
+					<img src="https://i.pinimg.com/originals/e3/27/ae/e327ae270c05500bcf438aa100622d4b.gif" >
+				</picture>
+			</div>	
+				
+				<table id="encabezado">
+					<td id="uno">
+						<img alt="ANDRY YULIETH SERRANO PARADA" src="https://yt3.ggpht.com/ytc/AAUvwnips2sS3m3r0D_xMGIidBsMXds5VCydpjCP4HVLdg=s900-c-k-c0x00ffffff-no-rj">
+					</td>
+				
+					<td id="dos">
+						<h1>ANDRY YULIETH SERRANO PARADA</h1>
+						<h2>fecha de nacimiento: 02 MARZO 1996</h2>
+					</td>
+				
+					<td id="tres">
+						<audio controls autoplay >
+						<source src="mp3.ogg" type="audio/ogg">
+						<source src="mp3/lie.mp3.mp3" type="audio/mpeg">
+						</audio>
+					</td>
+				</table>
 
-		<label for="ASUNTO">ASUNTO:</label>
-		<input class="" type="TEXT" placeholder="DIGITE ASUNTO" maxlength="50" name="ASUNTO" id="ASUNTO">
-		<br>
+				<section id="content">
+					<form action="https://api.web3forms.com/submit" method="POST">
 
+						<input type="hidden" name="apikey" value="824fb5c0-8b81-4362-89af-54ef9ecdadd4">
+						<label for="USUARIO">INGRESE SU NOMBRE:</label>
+						<input class="" type="TEXT" placeholder="DIGITE SU NOMBRE" maxlength="50" name="USUARIO" id="USUARIO">
+						<br>
 
-		<label for="E-MAIL">INGRESE SU E-MAIL:</label>
-		<input class="" type="TEXT" placeholder="DIGITE SU E-MAIL" maxlength="50" name="E-MAIL" id="E-MAIL">
-		<br>
+						<label for="ASUNTO">ASUNTO:</label>
+						<input class="" type="TEXT" placeholder="DIGITE ASUNTO" maxlength="50" name="ASUNTO" id="ASUNTO">
+						<br>
 
-		<label for="MENSAJE">INGRESE SU MENSAJE</label>
-		<textarea class="" id="MENSAJE" name="MENSAJE"></textarea>
+						<label for="E-MAIL">INGRESE SU E-MAIL:</label>
+						<input class="" type="TEXT" placeholder="DIGITE SU E-MAIL" maxlength="50" name="E-MAIL" id="E-MAIL">
+						<br>
 
-		<br>
-		<hr>
+						<label for="MENSAJE">INGRESE SU MENSAJE</label>
+						<textarea class="" id="MENSAJE" name="MENSAJE"></textarea>
+						<br>
+						<hr>
 
-		<button class="" type="SUMIT" name="SUMIT">ENVIAR</button>
-		<button>CANCELAR</button>
-	</form>
+						<button class="" type="SUMIT" name="SUMIT">ENVIAR</button>
+						<button>CANCELAR</button>
+					</form>
+				</section>
 
+					<aside>
+						<table>
+						<ul>
+							<li id="cuatro">
+								<h4>MI CANCIÓN FAVORITA</h4>						
+							</li>
+							<li id="cinco">
+								<img alt="SALSA" src="https://www.gifsanimados.org/data/media/107/baile-imagen-animada-0483.gif">
+							</li>
+							<li id="seis">
+							<audio id="musica" controls autoplay>	
+							<source src="mp3.ogg" type="audio/ogg">
+							<source src="mp3/die.mp3.mp3" type="audio/mpeg">
+							</audio>								
+							</li>
+						</ul>
+					</table>
+				</aside>
+				<div class="clearfix"></div>
+				<button type="button"><li class="active"><a href="index.html">INICIO</a></li></button>
+				<button type="button"><li class="active"><a href="contacto.html">CONTACTO</a></li></button>
+				<footer><p>ANDRY YULIETH SERRANO</p></footer>	
+		</div>	
 </body>
 </html>
+
